@@ -11,7 +11,7 @@ import random
 import math
 import numpy as np
 import itertools
-
+# just adding some comments
 class cell(object):
 	def __init__(self):
 
