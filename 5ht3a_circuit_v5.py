@@ -209,7 +209,7 @@ for ggg in olmcombs:
 			spontpyrepsc[jj].onset=(eventtimespyrepsc[jj]/14002.0)*350.0
 			#print "eventimes[jj]="+str(spontpyrepsc[jj].onset)
 			spontpyrepsc[jj].e=0
-			spontpyrepsc[jj].gmax=.002
+			spontpyrepsc[jj].gmax=.002*np.random.lognormal(.002,.2,1)
 			spontpyrepsc[jj].tau=1
 
 
@@ -231,7 +231,7 @@ for ggg in olmcombs:
 			spontpyripsc[jj].onset=(eventtimespyripsc[jj]/14002.0)*350.0
 			#print "eventimes[jj]="+str(spontpyripsc[jj].onset)
 			spontpyripsc[jj].e=-75
-			spontpyripsc[jj].gmax=.002
+			spontpyripsc[jj].gmax=.002*np.random.lognormal(.002,.2,1)
 			spontpyripsc[jj].tau=5
 
 		######################################################
@@ -256,7 +256,7 @@ for ggg in olmcombs:
 			spontpvepsc[jj].onset=(eventtimespvepsc[jj]/14002.0)*350.0
 			#print "eventimes[jj]="+str(spontpvepsc[jj].onset)
 			spontpvepsc[jj].e=0
-			spontpvepsc[jj].gmax=.002
+			spontpvepsc[jj].gmax=.002*np.random.lognormal(.002,.2,1)
 			spontpvepsc[jj].tau=1
 
 		rateconst=float(2000)
@@ -278,7 +278,7 @@ for ggg in olmcombs:
 			spontpvipsc[jj].onset=(eventtimespvipsc[jj]/14002.0)*350.0
 			#print "eventimes[jj]="+str(spontpvipsc[jj].onset)
 			spontpvipsc[jj].e=-75
-			spontpvipsc[jj].gmax=.002
+			spontpvipsc[jj].gmax=.002*np.random.lognormal(.002,.2,1)
 			spontpvipsc[jj].tau=5
 
 
@@ -304,7 +304,7 @@ for ggg in olmcombs:
 			spontolmepsc[jj].onset=(eventtimesolmepsc[jj]/14002.0)*350.0
 			#print "eventimes[jj]="+str(spontolmepsc[jj].onset)
 			spontolmepsc[jj].e=0
-			spontolmepsc[jj].gmax=.002
+			spontolmepsc[jj].gmax=.002*np.random.lognormal(.002,.2,1)
 			spontolmepsc[jj].tau=1
 
 		rateconst=float(2000)
@@ -326,7 +326,7 @@ for ggg in olmcombs:
 			spontolmipsc[jj].onset=(eventtimesolmipsc[jj]/14002.0)*350.0
 			#print "eventimes[jj]="+str(spontolmipsc[jj].onset)
 			spontolmipsc[jj].e=-75
-			spontolmipsc[jj].gmax=.002
+			spontolmipsc[jj].gmax=.002*np.random.lognormal(.002,.2,1)
 			spontolmipsc[jj].tau=5
 
 
